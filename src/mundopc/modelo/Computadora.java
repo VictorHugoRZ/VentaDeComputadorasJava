@@ -1,7 +1,7 @@
 package mundopc.modelo;
 
 public class Computadora {
-    private int idComputadora;
+    private final int idComputadora;
     private String nombre;
     private Monitor monitor;
     private Teclado teclado;
